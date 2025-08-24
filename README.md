@@ -52,4 +52,4 @@ STRIDE is more than just a faster SHAP. It represents a new frontier in XAI, ena
 
 The core algorithms and system architecture of the STRIDE framework are proprietary and protected by a pending patent (App. No. 10-2025-0044029).
 
-This repository serves as a high-level overview and portfolio of the project's goals, methodology, and key results. The full source code is maintained in a private repository. I would be happy to discuss the architecture and key implementation details in an interview setting.
+This repository serves as a high-level overview and portfolio of the project's goals, methodology, and key results. The full source code is maintained in a private repository. I would be happy to discuss the architecture and key implementation details in an interview setting. Please feel free to reach out.
