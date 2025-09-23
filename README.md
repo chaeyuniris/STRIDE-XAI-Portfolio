@@ -22,8 +22,8 @@ Confronted with the 2^d complexity wall in XAI, I challenged the established vie
 
 ## 🚀 Key Results & Capabilities
 
--   **Performance**: Achieved **up to 9.7x speedup** over TreeSHAP on benchmark datasets[cite: 12].
--   **Fidelity**: Reconstructs original model predictions with **high fidelity (avg. R² > 0.93)**[cite: 63, 2763].
+-   **Performance**: Achieved **up to 9.7x speedup** over TreeSHAP on benchmark datasets.
+-   **Fidelity**: Reconstructs original model predictions with **high fidelity (avg. R² > 0.93)**.
 -   **Validation**: Validated through a **first-author ICLR 2026 submission**, a **pending patent**, and a **Letter of Intent (LOI)** from a leading fintech CTO.
 
 ---
@@ -48,4 +48,3 @@ Confronted with the 2^d complexity wall in XAI, I challenged the established vie
 -   **Libraries**: Scikit-learn, PyTorch, XGBoost, Pandas, NumPy, Matplotlib 
 
 The core algorithms of STRIDE are proprietary and patent-pending. This repository serves as a portfolio demonstrating the project's methodology, results, and the engineering quality of non-proprietary components. The full source code is maintained privately, and I would be happy to discuss the architecture and implementation details in an interview.
-
