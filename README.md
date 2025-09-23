@@ -7,7 +7,9 @@
 
 Welcome to the official overview of the STRIDE XAI framework. STRIDE was invented and developed by **Chaeyun Ko** as part of a Master's thesis at Ewha Womans University.
 
-[**My LinkedIn Profile**](https://www.linkedin.com/in/chaeyunko) | [**Google Scholar Profile**](https://scholar.google.com/citations?user=z2gnrNUAAAAJ&hl=en&authuser=1) ---
+[**My LinkedIn Profile**](https://www.linkedin.com/in/chaeyunko) | [**Google Scholar Profile**](https://scholar.google.com/citations?user=z2gnrNUAAAAJ&hl=en&authuser=1) 
+
+---
 
 ## 💡 Core Idea & Vision
 
