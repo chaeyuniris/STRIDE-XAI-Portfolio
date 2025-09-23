@@ -22,9 +22,9 @@ Confronted with the 2^d complexity wall in XAI, I challenged the established vie
 
 ## 🚀 Key Results & Capabilities
 
-- [cite_start]**Performance**: Achieved **up to 9.7x speedup** over TreeSHAP on benchmark datasets. [cite: 2565]
-- [cite_start]**Fidelity**: Reconstructs original model predictions with **high fidelity (avg. R² > 0.93)**. [cite: 399]
-- [cite_start]**Validation**: Validated through a **first-author ICLR 2026 submission**, a **pending patent**, and a **Letter of Intent (LOI)** from a leading fintech CTO. [cite: 2558, 2567]
+- **Performance**: Achieved **up to 9.7x speedup** over TreeSHAP on benchmark datasets. 
+- **Fidelity**: Reconstructs original model predictions with **high fidelity (avg. R² > 0.93)**.
+- **Validation**: Validated through a **first-author ICLR 2026 submission**, a **pending patent**, and a **Letter of Intent (LOI)** from a leading fintech CTO.
 
 ---
 
