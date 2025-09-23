@@ -1,55 +1,34 @@
 # STRIDE: A Novel Kernel-Based Framework for Explainable AI
 
-**ICLR Submitted (Under Review) & Patent-Pending**
+**Submitted to ICLR 2026 (Under Review) & Patent-Pending (App. No. 10-2025-0044029)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
-A novel kernel-based XAI framework designed to overcome the theoretical and computational limitations of traditional methods like SHAP. Developed by **Chaeyun Ko** as part of a Master's thesis in Applied Mathematics at Ewha Womans University.
+Welcome to the official overview of the STRIDE XAI framework. STRIDE was invented and developed by **Chaeyun Ko** as part of a Master's thesis at Ewha Womans University.
 
-[**[View Full Technical Overview PDF]**](STRIDE_Portfolio_v2.0_20250824_Eng_ChaeyunKo.pdf) | [**[My LinkedIn Profile]**](https://www.linkedin.com/in/chaeyunko)
+[**My LinkedIn Profile**](https://www.linkedin.com/in/chaeyunko) | [**Google Scholar Profile**](https://scholar.google.com/citations?user=z2gnrNUAAAAJ&hl=en&authuser=1) ---
 
----
+## 💡 Core Idea & Vision
 
-## Core Idea & Vision
+Confronted with the 2^d complexity wall in XAI, I challenged the established view that enumeration was necessary. STRIDE is the answer to a fundamental question—"Can we decompose a model's logic without brute force?"—and embodies my philosophy of turning deep theoretical inquiry into tangible, real-world impact.
 
-My journey into AI began not with code, but with a question: What are the fundamental mathematical truths that govern this artificial "intelligence"? STRIDE is the culmination of this inquiry, a framework grounded in the philosophy of transforming deep theoretical insights into tangible, real-world impact.
-
-It introduces a new paradigm for model interpretation based on **Orthogonal Decomposition in Reproducing Kernel Hilbert Space (RKHS)**, moving beyond the combinatorial limitations of Shapley-value-based approaches.
-
-![STRIDE Conceptual Diagram](assets/STRIDE_diagram.png)
+- **New Paradigm**: Moves beyond combinatorial methods by using **Orthogonal Decomposition in a Reproducing Kernel Hilbert Space (RKHS)**.
+- **Key Innovation**: Analytically separates a model's output into main effects and high-order interaction effects, revealing **how** features interact, not just **what** features are important.
 
 ---
 
-## Key Results & Capabilities
+## 🚀 Key Results & Capabilities
 
-STRIDE's efficacy is validated through its comprehensive explanation suite, superior performance, and unique analytical functions.
-
-### 1. Comprehensive Explanations (Global & Local)
-STRIDE masters the fundamentals of XAI, providing both high-level overviews and granular, instance-specific analyses.
-
-| Global Explanation (Beeswarm Plot) | Local Explanation (Delta Breakdown) |
-| :---: | :---: |
-| <img src="assets/stride_beeswarm.png" width="400"> | <img src="assets/ins_delta_breakdown.png" width="400"> |
-
-### 2. Superior Performance & Reliability
-The framework delivers a significant speedup over industry standards without sacrificing the integrity of the explanations. The speed is quantified in the table in our [Technical Overview](STRIDE_Portfolio_v2.0_20250824_Eng_ChaeyunKo.pdf), and the reliability is visualized below.
-
-| High Value Correlation with TreeSHAP | High Rank Correlation with TreeSHAP |
-| :---: | :---: |
-| <img src="assets/shap_vs_stride.png" width="400"> | <img src="assets/rank_corr.png" width="400"> |
-
-### 3. Unique Analytical Functions Beyond Attribution
-STRIDE is more than just a faster SHAP. It represents a new frontier in XAI, enabling deeper insights and providing dynamic, simulation-based tools for proactive decision-making.
-
-| Interaction Synergy Heatmap | What-if Analysis Simulation |
-| :---: | :---: |
-| <img src="assets/ins_synergy_heatmap.png" width="400"> | <img src="assets/whatif.png" width="400"> |
+- [cite_start]**Performance**: Achieved **up to 9.7x speedup** over TreeSHAP on benchmark datasets. [cite: 2565]
+- [cite_start]**Fidelity**: Reconstructs original model predictions with **high fidelity (avg. R² > 0.93)**. [cite: 399]
+- [cite_start]**Validation**: Validated through a **first-author ICLR 2026 submission**, a **pending patent**, and a **Letter of Intent (LOI)** from a leading fintech CTO. [cite: 2558, 2567]
 
 ---
 
-## Intellectual Property & Source Code
+## 🛠️ Technical Stack & Source Code
 
-The core algorithms and system architecture of the STRIDE framework are proprietary and protected by a pending patent (App. No. 10-2025-0044029).
+- **Languages**: Python (Proficient), MATLAB
+- **Libraries**: Scikit-learn, PyTorch, XGBoost, Pandas, NumPy, Matplotlib
 
-This repository serves as a high-level overview and portfolio of the project's goals, methodology, and key results. The full source code is maintained in a private repository. I would be happy to discuss the architecture and key implementation details in an interview setting. Please feel free to reach out.
+The core algorithms of STRIDE are proprietary and patent-pending. This repository serves as a portfolio demonstrating the project's methodology, results, and the engineering quality of non-proprietary components (e.g., visualization, benchmarking). The full source code is maintained privately, and I would be happy to discuss the architecture and implementation details in an interview.
